@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=KoHo:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -15,7 +15,28 @@
 </head>
 <body>
 
-    
-    </script>
+    <!--Header Section-->
+    <div class="header">
+        <nav id="navBar">
+          <a href="index.html" aria-label="logo, click to go to home"> <img src="assets/images/logo.png" class="logo" alt="squareeyes logos" > </a>
+          <ul class="nav-links">
+              <li> <a href="index.html" class="active">Home</a></li>
+              <li><a href="catagories.html">Catagories</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping" aria-label="go to cart"></i> My Cart</a></li>
+          </ul>
+          <a href="login-form.html" class="hero-btn" aria-label="sign in button">Sign In</a>
+          <i class="fas fa-bars" aria-label="menu" onclick="togglebtn()"></i>
+          </nav>
+          <div class="container search">
+              <h1>Find Unlimited Movies, Tv series and more..</h1>
+              <h3>Watch anywhere.Stream, Support, and Explore: Where Movies Meet Makers!</h3>
+              <form action="" class="search-bar">
+                  <input type="text" placeholder="Search movies and TV series">
+                  <button type="submit"><img src="images/search.png" alt="search icon"></button>
+              </form>
+          </div>
+    </div>
 </body>
 </html>
